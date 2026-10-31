@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Gongali Kuruva Veeresh | Doctor &amp; Public Servant, Kairuppala</title>
+  <meta name="description" content="Official personal website of Dr. Gongali Kuruva Veeresh - Doctor and public servant serving Kairuppala, Puppala Doddi, and Chennampalli in Andhra Pradesh." />
+  <meta name="author" content="Gongali Kuruva Veeresh" />
+  <meta name="theme-color" content="#0d2a5c" />
+  <link rel="canonical" href="https://gkveereshkhyruppalla.online/" />
+
+  <!-- Open Graph Meta Tags (for WhatsApp, Facebook, Social Sharing) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dr. Gongali Kuruva Veeresh | Doctor &amp; Public Servant" />
+  <meta property="og:description" content="Personal website of Dr. Gongali Kuruva Veeresh - Doctor and public servant serving Kairuppala, Puppala Doddi, and Chennampalli, Andhra Pradesh." />
+  <meta property="og:url" content="https://gkveereshkhyruppalla.online/" />
+  <meta property="og:image" content="https://gkveereshkhyruppalla.online/veeresh.jpg" />
+  <meta property="og:image:alt" content="Dr. Gongali Kuruva Veeresh" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dr. Gongali Kuruva Veeresh | Doctor &amp; Public Servant" />
+  <meta name="twitter:description" content="Personal website of Dr. Gongali Kuruva Veeresh - Doctor and public servant serving Kairuppala, Puppala Doddi, and Chennampalli, Andhra Pradesh." />
+  <meta name="twitter:image" content="https://gkveereshkhyruppalla.online/veeresh.jpg" />
+
+  <!-- Google Font: Noto Sans Telugu with System Font Fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    /* CSS RESET & VARIABLES */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --navy: #0d2a5c;
+      --blue: #1d5fbf;
+      --blue-hover: #154ca0;
+      --green: #2c9a49;
+      --green-hover: #23803c;
+      --light-sky: #e8f1fc;
+      --white: #ffffff;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-600: #475569;
+      --gray-800: #1e293b;
+      --gray-900: #0f172a;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 1px 3px rgba(13, 42, 92, 0.08);
+      --shadow-md: 0 4px 12px rgba(13, 42, 92, 0.1);
+      --shadow-lg: 0 10px 25px rgba(13, 42, 92, 0.12);
+      --font-stack: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    html {
+      font-family: var(--font-stack);
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      color: var(--gray-900);
+      background-color: var(--gray-50);
+      line-height: 1.6;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      font-size: 16px;
+    }
+
+    /* ACCESSIBILITY & REDUCED MOTION */
+    :focus-visible {
+      outline: 3px solid var(--blue);
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* BILINGUAL LANGUAGE CONTROLS (body class based) */
+    body.lang-te .en {
+      display: none !important;
+    }
+
+    body.lang-en .te {
+      display: none !important;
+    }
+
+    /* TYPOGRAPHY HELPERS */
+    h1, h2, h3, h4 {
+      line-height: 1.25;
+      color: var(--navy);
+      font-weight: 800;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .section-title-wrap {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 36px auto;
+    }
+
+    .section-badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background-color: var(--light-sky);
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: var(--radius-full);
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .section-heading {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .section-subheading {
+      font-size: 16px;
+      color: var(--gray-600);
+      font-weight: 500;
+    }
+
+    .section-divider {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--navy), var(--green));
+      margin: 14px auto 0 auto;
+      border-radius: var(--radius-full);
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 22px;
+      font-size: 15px;
+      font-weight: 700;
+      border-radius: var(--radius-md);
+      transition: background-color 0.15s ease, transform 0.15s ease;
+      cursor: pointer;
+      border: 2px solid transparent;
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .btn-green {
+      background-color: var(--green);
+      color: var(--white);
+    }
+
+    .btn-green:hover {
+      background-color: var(--green-hover);
+    }
+
+    .btn-blue {
+      background-color: var(--blue);
+      color: var(--white);
+    }
+
+    .btn-blue:hover {
+      background-color: var(--blue-hover);
+    }
+
+    .btn-outline-white {
+      background-color: rgba(255, 255, 255, 0.15);
+      color: var(--white);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .btn-outline-white:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .btn-sm {
+      padding: 8px 14px;
+      font-size: 13px;
+    }
+
+    /* 1. STICKY HEADER */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(255, 255, 255, 0.98);
+      border-bottom: 2px solid var(--navy);
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(8px);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: 12px;
+    }
+
+    .header-brand {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-brand-name {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--navy);
+      line-height: 1.2;
+    }
+
+    .header-brand-sub {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--green);
+      line-height: 1.2;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .lang-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--light-sky);
+      color: var(--navy);
+      border: 1px solid var(--blue);
+      padding: 7px 12px;
+      border-radius: var(--radius-full);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .lang-toggle-btn:hover {
+      background-color: #d8e8fc;
+    }
+
+    /* 2. HERO SECTION */
+    .hero-section {
+      background: linear-gradient(135deg, var(--navy) 0%, #103b7e 60%, #15509e 100%);
+      color: var(--white);
+      padding: 48px 0 56px 0;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .hero-photo-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-photo-card {
+      width: 240px;
+      height: 300px;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      border: 4px solid var(--white);
+      box-shadow: var(--shadow-lg);
+      background-color: var(--light-sky);
+      position: relative;
+    }
+
+    .hero-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+    }
+
+    .avatar-fallback {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--navy), var(--blue));
+      color: var(--white);
+      font-size: 42px;
+      font-weight: 800;
+      text-align: center;
+      padding: 16px;
+    }
+
+    .avatar-fallback-name {
+      font-size: 14px;
+      margin-top: 8px;
+      font-weight: 600;
+    }
+
+    .hero-content {
+      text-align: center;
+    }
+
+    .hero-pill-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: var(--light-sky);
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .hero-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+      line-height: 1.25;
+    }
+
+    .hero-en-name {
+      display: inline-block;
+      font-size: 30px;
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    body.lang-te .hero-en-name {
+      font-size: 22px;
+      color: #bfdbfe;
+      font-weight: 700;
+      margin-top: 6px;
+    }
+
+    .hero-subtitle {
+      font-size: 19px;
+      font-weight: 700;
+      color: #93c5fd;
+      margin-bottom: 18px;
+    }
+
+    .villages-box {
+      background-color: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: var(--radius-lg);
+      padding: 16px;
+      margin: 0 auto 24px auto;
+      max-width: 520px;
+    }
+
+    .villages-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--light-sky);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+
+    .villages-tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .village-tag {
+      background-color: var(--white);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 14px;
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    /* 3. ABOUT SECTION */
+    .about-section {
+      padding: 56px 0;
+      background-color: var(--white);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .about-card {
+      background-color: var(--light-sky);
+      border: 1px solid #bfdbfe;
+      border-radius: var(--radius-xl);
+      padding: 28px 24px;
+      max-width: 840px;
+      margin: 0 auto;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .about-lead {
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--gray-900);
+      margin-bottom: 18px;
+      font-weight: 500;
+    }
+
+    .about-values-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .about-value-item {
+      background-color: var(--white);
+      padding: 16px;
+      border-radius: var(--radius-md);
+      border-left: 4px solid var(--green);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .about-value-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .about-value-desc {
+      font-size: 14px;
+      color: var(--gray-600);
+      line-height: 1.5;
+    }
+
+    /* 4. PUBLIC SERVICE SECTION */
+    .service-section {
+      padding: 56px 0;
+      background-color: var(--gray-50);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .service-cards-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .service-card {
+      background-color: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: #cbd5e1;
+    }
+
+    .service-card-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-md);
+      background-color: var(--light-sky);
+      color: var(--blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .service-card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+
+    .service-card-desc {
+      font-size: 14px;
+      color: var(--gray-600);
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+
+    /* 5. GALLERY SECTION */
+    .gallery-section {
+      padding: 56px 0;
+      background-color: var(--white);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .gallery-slot {
+      aspect-ratio: 4 / 3;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background-color: var(--gray-100);
+      border: 1px solid var(--gray-200);
+      position: relative;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gallery-notice {
+      text-align: center;
+      font-size: 13px;
+      color: var(--gray-600);
+      margin-top: 18px;
+    }
+
+    /* 6. CONTACT SECTION */
+    .contact-section {
+      padding: 56px 0;
+      background-color: var(--gray-50);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .contact-card {
+      background-color: var(--white);
+      border-radius: var(--radius-xl);
+      border: 2px solid #cbd5e1;
+      padding: 32px 24px;
+      max-width: 680px;
+      margin: 0 auto;
+      box-shadow: var(--shadow-md);
+    }
+
+    .contact-name-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .contact-role-sub {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--green);
+      margin-bottom: 24px;
+    }
+
+    .contact-info-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .contact-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 12px 14px;
+      background-color: var(--gray-50);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--gray-200);
+    }
+
+    .contact-info-icon {
+      font-size: 20px;
+      color: var(--blue);
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .contact-info-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--gray-600);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .contact-info-val {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      word-break: break-word;
+    }
+
+    .contact-buttons-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    /* 7. FOOTER & MANDATORY META DISCLAIMERS */
+    .site-footer {
+      background-color: var(--navy);
+      color: #cbd5e1;
+      padding: 40px 0 32px 0;
+      font-size: 14px;
+    }
+
+    .footer-top {
+      text-align: center;
+      margin-bottom: 24px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .footer-name {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+
+    .footer-subtitle {
+      font-size: 13px;
+      color: #93c5fd;
+      font-weight: 600;
+    }
+
+    .footer-disclaimers {
+      background-color: rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .footer-disclaimer-text {
+      color: var(--white);
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 1.6;
+      margin-bottom: 6px;
+    }
+
+    .footer-disclaimer-text:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer-contact-summary {
+      text-align: center;
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+
+    /* DESKTOP RESPONSIVE BREAKPOINT */
+    @media (min-width: 640px) {
+      .hero-grid {
+        grid-template-columns: 280px 1fr;
+        text-align: left;
+      }
+
+      .hero-content {
+        text-align: left;
+      }
+
+      .hero-actions {
+        justify-content: flex-start;
+      }
+
+      .villages-box {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .villages-tags {
+        justify-content: flex-start;
+      }
+
+      .about-values-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .service-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+
+      .contact-buttons-row {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .hero-section {
+        padding: 64px 0 72px 0;
+      }
+
+      .hero-photo-card {
+        width: 260px;
+        height: 330px;
+      }
+
+      .service-cards-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  </style>
+</head>
+<body class="lang-te">
+
+  <!-- 1. STICKY HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Dr. Gongali Kuruva Veeresh Branding -->
+        <a href="#hero" class="header-brand" aria-label="Dr. Gongali Kuruva Veeresh">
+          <span class="header-brand-name">
+            <span class="te">డా. గొంగళి కురువ వీరేష్</span>
+            <span class="en">Dr. Gongali Kuruva Veeresh</span>
+          </span>
+          <span class="header-brand-sub">
+            <span class="te">వైద్యులు • ప్రజాసేవకులు</span>
+            <span class="en">Doctor • Public Servant</span>
+          </span>
+        </a>
+
+        <!-- Controls: Language Toggle & Call Button -->
+        <div class="header-controls">
+          <button id="langToggleBtn" type="button" class="lang-toggle-btn" aria-label="Toggle language">
+            <span aria-hidden="true">🌐</span>
+            <span class="te">English</span>
+            <span class="en">తెలుగు</span>
+          </button>
+
+          <a href="tel:+919700949414" class="btn btn-green btn-sm" aria-label="Call +91 9700949414">
+            <span aria-hidden="true">📞</span>
+            <span class="te">కాల్</span>
+            <span class="en">Call</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Photo Container with letter fallback if image is missing -->
+          <div class="hero-photo-wrap">
+            <div class="hero-photo-card">
+              <img
+                src="veeresh.jpg"
+                alt="Dr. Gongali Kuruva Veeresh"
+                class="hero-photo"
+                onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'avatar-fallback\'><span>GV</span><span class=\'avatar-fallback-name\'>Dr. Gongali Kuruva Veeresh</span></div>';"
+              />
+            </div>
+          </div>
+
+          <!-- Hero Identity & Info -->
+          <div class="hero-content">
+            <div class="hero-pill-badge">
+              <span class="te">కైరుప్పల • ప్రజాసేవ</span>
+              <span class="en">Kairuppala • Public Service</span>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="te">డా. గొంగళి కురువ వీరేష్<br /></span>
+              <span class="hero-en-name">Dr. Gongali Kuruva Veeresh</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              <span class="te">వైద్యులు • ప్రజాసేవకులు</span>
+              <span class="en">Doctor • Public Servant</span>
+            </p>
+
+            <!-- Three Villages Served -->
+            <div class="villages-box">
+              <div class="villages-label">
+                <span class="te">సేవలు అందిస్తున్న గ్రామాలు:</span>
+                <span class="en">Villages Served:</span>
+              </div>
+              <div class="villages-tags">
+                <span class="village-tag">
+                  <span class="te">కైరుప్పల</span>
+                  <span class="en">Kairuppala</span>
+                </span>
+                <span class="village-tag">
+                  <span class="te">పుప్పాల దొడ్డి</span>
+                  <span class="en">Puppala Doddi</span>
+                </span>
+                <span class="village-tag">
+                  <span class="te">చెన్నంపల్లి</span>
+                  <span class="en">Chennampalli</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Call & WhatsApp Action Buttons -->
+            <div class="hero-actions">
+              <a href="tel:+919700949414" class="btn btn-green">
+                <span aria-hidden="true">📞</span>
+                <span class="te">కాల్ చేయండి (+91 9700949414)</span>
+                <span class="en">Call Now (+91 9700949414)</span>
+              </a>
+
+              <a href="https://wa.me/919700949414" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white">
+                <span aria-hidden="true">💬</span>
+                <span class="te">వాట్సాప్ (WhatsApp)</span>
+                <span class="en">WhatsApp Message</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT DR. GONGALI KURUVA VEERESH -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">
+            <span class="te">పరిచయం</span>
+            <span class="en">About Him</span>
+          </span>
+          <h2 class="section-heading">
+            <span class="te">డా. గొంగళి కురువ వీరేష్ గారి గురించి</span>
+            <span class="en">About Dr. Gongali Kuruva Veeresh</span>
+          </h2>
+          <p class="section-subheading">
+            <span class="te">వైద్య వృత్తి మరియు ప్రజాహిత సేవలో అంకితభావం</span>
+            <span class="en">Dedicated to Healthcare and Public Welfare</span>
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-card">
+          <p class="about-lead">
+            <span class="te">
+              <strong>డా. గొంగళి కురువ వీరేష్ (Dr. Gongali Kuruva Veeresh)</strong> గారు ఆంధ్రప్రదేశ్ రాష్ట్రంలోని కైరుప్పల ప్రాంతానికి చెందిన వైద్యులు మరియు ప్రజాసేవకులు. సమాజ సేవ పట్ల ప్రగాఢ నిబద్ధతతో, కైరుప్పల, పుప్పాల దొడ్డి మరియు చెన్నంపల్లి గ్రామాల ప్రజలకు నిరంతరం అందుబాటులో ఉంటూ సహాయాన్ని అందిస్తున్నారు.
+            </span>
+            <span class="en">
+              <strong>Dr. Gongali Kuruva Veeresh</strong> is a medical doctor and public servant from Kairuppala, Andhra Pradesh. Driven by a deep commitment to society, he remains dedicated to serving the residents of Kairuppala, Puppala Doddi, and Chennampalli villages with accessibility and care.
+            </span>
+          </p>
+
+          <p class="about-lead">
+            <span class="te">
+              ప్రజల కష్టసుఖాలను దగ్గరగా తెలుసుకుంటూ, గ్రామీణ ప్రాంత ప్రజారోగ్య అవగాహన మరియు నిస్వార్థ ప్రజాహిత కార్యక్రమాలలో ముందుంటున్నారు.
+            </span>
+            <span class="en">
+              Understanding the grassroots needs of the people, he actively promotes community health awareness and selfless public service in the rural areas.
+            </span>
+          </p>
+
+          <!-- 
+            [HTML COMMENT: EDIT HERE - Add Dr. Gongali Kuruva Veeresh's education, degrees, years of service, and detailed biographical activities below]
+            Example:
+            <div class="about-details">
+              <p>Education: MBBS / Specific Degree</p>
+              <p>Years of Service: X years in public welfare</p>
+            </div>
+          -->
+
+          <div class="about-values-grid">
+            <div class="about-value-item">
+              <h3 class="about-value-title">
+                <span class="te">నిరంతర అందుబాటు</span>
+                <span class="en">Accessible Service</span>
+              </h3>
+              <p class="about-value-desc">
+                <span class="te">గ్రామ ప్రజలకు అవసరమైన సమయంలో అందుబాటులో ఉండే నిబద్ధత.</span>
+                <span class="en">Always accessible to local villagers in times of need.</span>
+              </p>
+            </div>
+
+            <div class="about-value-item">
+              <h3 class="about-value-title">
+                <span class="te">ప్రజారోగ్య స్పృహ</span>
+                <span class="en">Health Awareness</span>
+              </h3>
+              <p class="about-value-desc">
+                <span class="te">గ్రామీణ ప్రాంతాల్లో ఆరోగ్యం మరియు పారిశుద్ధ్యంపై చైతన్యం.</span>
+                <span class="en">Promoting health awareness and preventive hygiene in villages.</span>
+              </p>
+            </div>
+
+            <div class="about-value-item">
+              <h3 class="about-value-title">
+                <span class="te">సామాజిక బాధ్యత</span>
+                <span class="en">Social Responsibility</span>
+              </h3>
+              <p class="about-value-desc">
+                <span class="te">పేద ప్రజల శ్రేయస్సు మరియు సమాజ హితం కోసం నిరంతర కృషి.</span>
+                <span class="en">Working towards the welfare of the underprivileged and community.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PUBLIC SERVICE SECTION -->
+    <section id="services" class="service-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">
+            <span class="te">ప్రజాసేవ</span>
+            <span class="en">Public Service</span>
+          </span>
+          <h2 class="section-heading">
+            <span class="te">ప్రజాసేవా కార్యక్రమాలు</span>
+            <span class="en">Public Service Initiatives</span>
+          </h2>
+          <p class="section-subheading">
+            <span class="te">గ్రామ ప్రజల క్షేమం కోసం చేపట్టిన సేవలు</span>
+            <span class="en">Selfless community efforts for the welfare of the villagers</span>
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- 
+          [HTML COMMENT: EDIT HERE - Add specific dates, named public service activities, and detailed reports conducted by Dr. Gongali Kuruva Veeresh]
+        -->
+
+        <div class="service-cards-grid">
+          <!-- Card 1 -->
+          <div class="service-card">
+            <div class="service-card-icon" aria-hidden="true">🩺</div>
+            <h3 class="service-card-title">
+              <span class="te">ఆరోగ్య అవగాహన సదస్సులు</span>
+              <span class="en">Health Awareness Camps</span>
+            </h3>
+            <p class="service-card-desc">
+              <span class="te">గ్రామీణ ప్రజలలో ప్రాథమిక ఆరోగ్య పరిరక్షణ, సరైన పోషకాహారం మరియు వ్యక్తిగత పరిశుభ్రతపై నిరంతర అవగాహన కల్పించడం.</span>
+              <span class="en">Organizing health awareness on basic personal wellness, nutrition, and hygiene practices across the villages.</span>
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card">
+            <div class="service-card-icon" aria-hidden="true">🤝</div>
+            <h3 class="service-card-title">
+              <span class="te">గ్రామస్తులకు మార్గదర్శనం</span>
+              <span class="en">Guidance for Villagers</span>
+            </h3>
+            <p class="service-card-desc">
+              <span class="te">అత్యవసర సమయాల్లో గ్రామస్తులకు సరైన సలహాలు మరియు వైద్య మార్గదర్శకాలను అందిస్తూ తోడ్పాటుగా నిలవడం.</span>
+              <span class="en">Assisting and guiding rural families with helpful advice and timely direction during critical health emergencies.</span>
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card">
+            <div class="service-card-icon" aria-hidden="true">🌿</div>
+            <h3 class="service-card-title">
+              <span class="te">పారిశుద్ధ్యం & సీజనల్ జాగ్రత్తలు</span>
+              <span class="en">Sanitation & Seasonal Care</span>
+            </h3>
+            <p class="service-card-desc">
+              <span class="te">వర్షాకాలంలో వచ్చే సీజనల్ వ్యాధులు, దోమల నివారణ మరియు పరిసరాల శుభ్రతపై ప్రజల్లో చైతన్యం పెంచడం.</span>
+              <span class="en">Spreading awareness on preventive measures against seasonal illnesses, mosquito control, and village cleanliness.</span>
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="service-card">
+            <div class="service-card-icon" aria-hidden="true">🛡️</div>
+            <h3 class="service-card-title">
+              <span class="te">సమాజ సంక్షేమ కార్యక్రమాలు</span>
+              <span class="en">Community Welfare</span>
+            </h3>
+            <p class="service-card-desc">
+              <span class="te">నిరుపేదలు, వృద్ధులు మరియు కష్టాల్లో ఉన్న కుటుంబాలకు మానవతా దృక్పథంతో చేదోడువాదోడుగా నిలబడడం.</span>
+              <span class="en">Extending compassionate support to vulnerable families, elderly citizens, and people facing unexpected distress.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GALLERY SECTION (6 Slots that hide if missing) -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">
+            <span class="te">ఫోటో గ్యాలరీ</span>
+            <span class="en">Photo Gallery</span>
+          </span>
+          <h2 class="section-heading">
+            <span class="te">చిత్రమాలిక</span>
+            <span class="en">Photo Gallery</span>
+          </h2>
+          <p class="section-subheading">
+            <span class="te">ప్రజాసేవా క్షణాలు మరియు కార్యక్రమాలు</span>
+            <span class="en">Moments of public service and community interactions</span>
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Slot 1 -->
+          <div class="gallery-slot">
+            <img
+              src="gallery1.jpg"
+              alt="Dr. Gongali Kuruva Veeresh public service photo 1"
+              class="gallery-img"
+              onerror="this.parentElement.style.display='none';"
+            />
+          </div>
+
+          <!-- Slot 2 -->
+          <div class="gallery-slot">
+            <img
+              src="gallery2.jpg"
+              alt="Dr. Gongali Kuruva Veeresh public service photo 2"
+              class="gallery-img"
+              onerror="this.parentElement.style.display='none';"
+            />
+          </div>
+
+          <!-- Slot 3 -->
+          <div class="gallery-slot">
+            <img
+              src="gallery3.jpg"
+              alt="Dr. Gongali Kuruva Veeresh public service photo 3"
+              class="gallery-img"
+              onerror="this.parentElement.style.display='none';"
+            />
+          </div>
+
+          <!-- Slot 4 -->
+          <div class="gallery-slot">
+            <img
+              src="gallery4.jpg"
+              alt="Dr. Gongali Kuruva Veeresh public service photo 4"
+              class="gallery-img"
+              onerror="this.parentElement.style.display='none';"
+            />
+          </div>
+
+          <!-- Slot 5 -->
+          <div class="gallery-slot">
+            <img
+              src="gallery5.jpg"
+              alt="Dr. Gongali Kuruva Veeresh public service photo 5"
+              class="gallery-img"
+              onerror="this.parentElement.style.display='none';"
+            />
+          </div>
+
+          <!-- Slot 6 -->
+          <div class="gallery-slot">
+            <img
+              src="gallery6.jpg"
+              alt="Dr. Gongali Kuruva Veeresh public service photo 6"
+              class="gallery-img"
+              onerror="this.parentElement.style.display='none';"
+            />
+          </div>
+        </div>
+
+        <p class="gallery-notice">
+          <span class="te">(గమనిక: గ్యాలరీ ఫోటోలు అప్‌లోడ్ చేసినప్పుడు ఇక్కడ ప్రదర్శించబడతాయి)</span>
+          <span class="en">(Note: Gallery photos appear here once gallery1.jpg through gallery6.jpg are placed in the folder)</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">
+            <span class="te">సంప్రదించండి</span>
+            <span class="en">Contact</span>
+          </span>
+          <h2 class="section-heading">
+            <span class="te">సంప్రదింపుల వివరాలు</span>
+            <span class="en">Contact Details</span>
+          </h2>
+          <p class="section-subheading">
+            <span class="te">డా. గొంగళి కురువ వీరేష్ గారిని నేరుగా సంప్రదించండి</span>
+            <span class="en">Connect directly with Dr. Gongali Kuruva Veeresh</span>
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-card">
+          <!-- Name Clearly Visible -->
+          <h3 class="contact-name-title">
+            <span class="te">డా. గొంగళి కురువ వీరేష్</span>
+            <span class="en">Dr. Gongali Kuruva Veeresh</span>
+          </h3>
+          <p class="contact-role-sub">
+            <span class="te">వైద్యులు • ప్రజాసేవకులు</span>
+            <span class="en">Doctor • Public Servant</span>
+          </p>
+
+          <!-- Contact Details (Exact as required) -->
+          <ul class="contact-info-list">
+            <li class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">📞</span>
+              <div>
+                <div class="contact-info-label">
+                  <span class="te">ఫోన్ నంబర్</span>
+                  <span class="en">Phone Number</span>
+                </div>
+                <a href="tel:+919700949414" class="contact-info-val">+91 9700949414</a>
+              </div>
+            </li>
+
+            <li class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">✉️</span>
+              <div>
+                <div class="contact-info-label">
+                  <span class="te">ఈమెయిల్ చిరునామా</span>
+                  <span class="en">Email Address</span>
+                </div>
+                <a href="mailto:info@gkveereshkhyruppalla.online" class="contact-info-val">info@gkveereshkhyruppalla.online</a>
+              </div>
+            </li>
+
+            <li class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">📍</span>
+              <div>
+                <div class="contact-info-label">
+                  <span class="te">చిరునామా</span>
+                  <span class="en">Address</span>
+                </div>
+                <div class="contact-info-val">
+                  <span class="te">కైరుప్పల, ఆంధ్రప్రదేశ్<br /></span>
+                  <span>Khyruppala, AP</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="contact-info-item">
+              <span class="contact-info-icon" aria-hidden="true">🌐</span>
+              <div>
+                <div class="contact-info-label">
+                  <span class="te">వెబ్‌సైట్ డొమైన్</span>
+                  <span class="en">Website Domain</span>
+                </div>
+                <div class="contact-info-val">gkveereshkhyruppalla.online</div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Call, WhatsApp, Mailto Buttons -->
+          <div class="contact-buttons-row">
+            <a href="tel:+919700949414" class="btn btn-green">
+              <span aria-hidden="true">📞</span>
+              <span class="te">కాల్ చేయండి</span>
+              <span class="en">Call</span>
+            </a>
+
+            <a href="https://wa.me/919700949414" target="_blank" rel="noopener noreferrer" class="btn btn-blue">
+              <span aria-hidden="true">💬</span>
+              <span class="te">వాట్సాప్</span>
+              <span class="en">WhatsApp</span>
+            </a>
+
+            <a href="mailto:info@gkveereshkhyruppalla.online" class="btn btn-blue">
+              <span aria-hidden="true">✉️</span>
+              <span class="te">ఈమెయిల్</span>
+              <span class="en">Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. FOOTER WITH MANDATORY META ("PAID FOR BY") DISCLAIMERS -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <h4 class="footer-name">Gongali Kuruva Veeresh</h4>
+        <p class="footer-subtitle">
+          <span class="te">వైద్యులు • ప్రజాసేవకులు — కైరుప్పల, ఆంధ్రప్రదేశ్</span>
+          <span class="en">Doctor &amp; Public Servant — Kairuppala, Andhra Pradesh</span>
+        </p>
+      </div>
+
+      <!-- MANDATORY DISCLAIMER REVIEW BOX -->
+      <div class="footer-disclaimers">
+        <!-- Mandatory Line 1 -->
+        <p class="footer-disclaimer-text">
+          <span class="te">ప్రచురణ మరియు చెల్లింపుదారు: గొంగళి కురువ వీరేష్<br /></span>
+          <span>Published and paid for by: Gongali Kuruva Veeresh</span>
+        </p>
+
+        <!-- Mandatory Line 2 -->
+        <p class="footer-disclaimer-text">
+          <span class="te">ఇది వ్యక్తిగత వెబ్సైట్. ఏ రాజకీయ పార్టీ యొక్క అధికారిక వెబ్సైట్ కాదు.</span>
+          <span class="en">This is a personal website. It is not the official website of any political party.</span>
+        </p>
+      </div>
+
+      <!-- Mandatory Contact Recap -->
+      <div class="footer-contact-summary">
+        <p>Phone: +91 9700949414 | Email: info@gkveereshkhyruppalla.online | Address: Khyruppala, AP</p>
+        <p style="margin-top: 4px;">Domain: gkveereshkhyruppalla.online</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VANILLA JAVASCRIPT: Language Switcher (Body Class Toggle) -->
+  <script>
+    (function () {
+      var body = document.body;
+      var toggleBtn = document.getElementById('langToggleBtn');
+
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', function () {
+          if (body.classList.contains('lang-te')) {
+            body.classList.remove('lang-te');
+            body.classList.add('lang-en');
+            document.documentElement.lang = 'en';
+          } else {
+            body.classList.remove('lang-en');
+            body.classList.add('lang-te');
+            document.documentElement.lang = 'te';
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
