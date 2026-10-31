@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-telugu: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-telugu);
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Bilingual Language Display Controls */
+html[data-lang="te"] .lang-en {
+  display: none !important;
+}
+
+html[data-lang="en"] .lang-te {
+  display: none !important;
+}
+
+/* Tab Switching in HTML */
+.village-panel {
+  display: none;
+}
+.village-panel.active {
+  display: block;
+}
+
+.village-tab-btn.active {
+  background-color: #0c2b5e;
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Print/share friendly styles */
+@media print {
+  header, footer, .no-print, .mobile-bar {
+    display: none !important;
+  }
+}
